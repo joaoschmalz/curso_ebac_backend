@@ -1,0 +1,16 @@
+1 - Wake up
+2 - Alarm clock ringing?
+2.1 - Yes = Turn off
+3 - Pick up cell phone
+4 - Open email
+5 - Read news from the news
+6 - Postpone until it's time to get ready
+7 - Enter  bath
+8 - Brush my teeth
+9 - Get out bath
+10 - Get dress
+11 - Brush my hair
+12 - I'm late?
+12.1 - Yes = Get my stuff and go to work
+12.2 - No = Postpone until I'm late
+12.2.1 - Get my stuff and go to work
