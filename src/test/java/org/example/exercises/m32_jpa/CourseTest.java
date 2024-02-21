@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
 
-public class JPATest {
+public class CourseTest {
 
   private final ICourseDAO dao = new CourseDAO();
   @Test
