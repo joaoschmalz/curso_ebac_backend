@@ -1,8 +1,9 @@
-package org.example.exercises.m32_jpa.domain;
+package org.example.exercises.m33_advancedJpa.domain;
 
 import javax.persistence.*;
+import java.util.List;
 
-//@Entity
+@Entity
 @Table(name = "course")
 public class Course {
 
@@ -14,6 +15,8 @@ public class Course {
   private String code;
   @Column(name = "name", length = 255, nullable = false)
   private String name;
+  @OneToMany(mappedBy = "course")
+  private List<Registration> registrations;
   @Column(name = "description", length = 400, nullable = false)
   private String description;
 
@@ -39,6 +42,14 @@ public class Course {
 
   public void setName(String name) {
     this.name = name;
+  }
+
+  public List<Registration> getRegistrations() {
+    return registrations;
+  }
+
+  public void setRegistrations(List<Registration> registrations) {
+    this.registrations = registrations;
   }
 
   public String getDescription() {

@@ -3,7 +3,7 @@ package org.example.exercises.m32_jpa.domain;
 import javax.persistence.*;
 import java.math.BigDecimal;
 
-@Entity
+//@Entity
 @Table(name = "product")
 public class Product {
 
